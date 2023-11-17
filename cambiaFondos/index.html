@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script src="cambiaFondos.js"></script>
+    </head>
+    <style>
+        *{
+            text-align: center;
+            align-items: center;
+        }
+        button{
+            padding: 50px;
+        }
+        #cuadro{
+            height: 200px;
+            width: 200px;
+        }
+
+    </style>
+    <body>
+            <label>FONDO</label>
+            <input type="radio" name="foncua" id="selFondo">
+            <label>CUADRO</label>
+            <input type="radio" name="foncua" id="selCuadro">
+            <br>
+            <button onclick="colorizar('white')" id="blanco">blanco</button>
+            <button onclick="colorizar('red')" id="rojo">rojo</button>
+            <button onclick="colorizar('blue')" id="azul">azul</button>
+            <button onclick="colorizar('yellow')" id="amarillo">amarillo</button>
+            <button onclick="colorizar('black')" id="negro">negro</button>
+            
+            <div id="cuadro"></div>
+
+    </body>
+</html>
